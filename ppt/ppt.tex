@@ -19,7 +19,36 @@
 \end{frame}
 
 \section{Liouville Theorem}
-    \begin{frame}{}
-        
+    \begin{frame}{一般情形}
+        哈密顿量$H = H(\vb*q, \vb*p) = H(\vb*x)$, $\vb*x = (\vb*q, \vb*p)$
+        \begin{equation}
+            \left\{
+            \begin{split}
+                \dot{q}_i &= \pdv{H}{p_i}\\
+                \dot{p}_i &= - \pdv{H}{q_i}
+            \end{split}
+            \right.\quad
+            \Rightarrow\quad
+            \dot{x}_\alpha = \omega_{\alpha\beta} \pdv{H}{x_\beta}
+        \end{equation}
+        其中, $i = 1,2,\dots,n, \ \alpha = 1,2,\dots,2n$, 
+        \begin{equation}
+            [\omega_{\alpha\beta}] = 
+            \begin{pmatrix}
+                & I \\
+                -I & 
+            \end{pmatrix}
+            \quad\Rightarrow\quad
+            \omega_{\alpha\beta} = -\omega_{\beta\alpha}
+        \end{equation}
     \end{frame}
+
+
+
+%====================================================================================
+% \begin{frame}[allowframebreaks]
+%     \nocite{*}
+% 	\frametitle{References}
+% 	\printbibliography[title={References}]
+% \end{frame}
 \end{document}
