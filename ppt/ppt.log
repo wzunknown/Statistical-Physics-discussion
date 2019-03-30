@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.10)  29 MAR 2019 20:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.10)  30 MAR 2019 21:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2573,58 +2573,77 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+) (c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip79
+\subfigcapskip=\skip80
+\subfigcaptopadj=\dimen343
+\subfigbottomskip=\skip81
+\subfigcapmargin=\dimen344
+\subfiglabelskip=\skip82
+\c@subfigure=\count352
+\c@lofdepth=\count353
+\c@subtable=\count354
+\c@lotdepth=\count355
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip83
+\subfig@bottom=\skip84
 ) (c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2018-03-20 v2.7m A comprehensive (SI) units package
  (c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-\col@sep=\dimen343
+\col@sep=\dimen345
 \ar@mcellbox=\box114
-\extrarowheight=\dimen344
+\extrarowheight=\dimen346
 \NC@list=\toks46
-\extratabsurround=\skip79
-\backup@length=\skip80
+\extratabsurround=\skip85
+\backup@length=\skip86
 \ar@cellbox=\box115
 )
 \l__siunitx_tmp_box=\box116
-\l__siunitx_tmp_dim=\dimen345
-\l__siunitx_tmp_int=\count352
-\l__siunitx_number_mantissa_length_int=\count353
-\l__siunitx_number_uncert_length_int=\count354
-\l__siunitx_round_int=\count355
-\l__siunitx_process_decimal_int=\count356
-\l__siunitx_process_uncertainty_int=\count357
-\l__siunitx_process_fixed_int=\count358
-\l__siunitx_process_integer_min_int=\count359
-\l__siunitx_process_precision_int=\count360
-\l__siunitx_group_min_int=\count361
+\l__siunitx_tmp_dim=\dimen347
+\l__siunitx_tmp_int=\count356
+\l__siunitx_number_mantissa_length_int=\count357
+\l__siunitx_number_uncert_length_int=\count358
+\l__siunitx_round_int=\count359
+\l__siunitx_process_decimal_int=\count360
+\l__siunitx_process_uncertainty_int=\count361
+\l__siunitx_process_fixed_int=\count362
+\l__siunitx_process_integer_min_int=\count363
+\l__siunitx_process_precision_int=\count364
+\l__siunitx_group_min_int=\count365
 \l__siunitx_angle_marker_box=\box117
 \l__siunitx_angle_unit_box=\box118
-\l__siunitx_angle_marker_dim=\dimen346
-\l__siunitx_angle_unit_dim=\dimen347
-\l__siunitx_unit_int=\count362
-\l__siunitx_unit_denominator_int=\count363
-\l__siunitx_unit_numerator_int=\count364
-\l__siunitx_unit_prefix_int=\count365
-\l__siunitx_unit_prefix_base_int=\count366
-\l__siunitx_unit_prefix_gram_int=\count367
-\l__siunitx_number_product_int=\count368
-\c__siunitx_one_fill_skip=\skip81
-\l__siunitx_table_unit_align_skip=\skip82
-\l__siunitx_table_exponent_dim=\dimen348
-\l__siunitx_table_integer_dim=\dimen349
-\l__siunitx_table_mantissa_dim=\dimen350
-\l__siunitx_table_marker_dim=\dimen351
-\l__siunitx_table_result_dim=\dimen352
-\l__siunitx_table_uncert_dim=\dimen353
-\l__siunitx_table_fill_pre_dim=\dimen354
-\l__siunitx_table_fill_post_dim=\dimen355
-\l__siunitx_table_fill_mid_dim=\dimen356
+\l__siunitx_angle_marker_dim=\dimen348
+\l__siunitx_angle_unit_dim=\dimen349
+\l__siunitx_unit_int=\count366
+\l__siunitx_unit_denominator_int=\count367
+\l__siunitx_unit_numerator_int=\count368
+\l__siunitx_unit_prefix_int=\count369
+\l__siunitx_unit_prefix_base_int=\count370
+\l__siunitx_unit_prefix_gram_int=\count371
+\l__siunitx_number_product_int=\count372
+\c__siunitx_one_fill_skip=\skip87
+\l__siunitx_table_unit_align_skip=\skip88
+\l__siunitx_table_exponent_dim=\dimen350
+\l__siunitx_table_integer_dim=\dimen351
+\l__siunitx_table_mantissa_dim=\dimen352
+\l__siunitx_table_marker_dim=\dimen353
+\l__siunitx_table_result_dim=\dimen354
+\l__siunitx_table_uncert_dim=\dimen355
+\l__siunitx_table_fill_pre_dim=\dimen356
+\l__siunitx_table_fill_post_dim=\dimen357
+\l__siunitx_table_fill_mid_dim=\dimen358
 \l__siunitx_table_pre_box=\box119
 \l__siunitx_table_post_box=\box120
 \l__siunitx_table_mantissa_box=\box121
 \l__siunitx_table_result_box=\box122
-\l__siunitx_table_number_align_skip=\skip83
-\l__siunitx_table_text_align_skip=\skip84
+\l__siunitx_table_number_align_skip=\skip89
+\l__siunitx_table_text_align_skip=\skip90
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2746,69 +2765,69 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
  (c:/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count369
+\lrq@indent=\count373
  (c:/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (c:/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write7
-\integerpart=\count370
-\decimalpart=\count371
+\integerpart=\count374
+\decimalpart=\count375
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count372
-\c@listtotal=\count373
-\c@listcount=\count374
-\c@liststart=\count375
-\c@liststop=\count376
-\c@citecount=\count377
-\c@citetotal=\count378
-\c@multicitecount=\count379
-\c@multicitetotal=\count380
-\c@instcount=\count381
-\c@maxnames=\count382
-\c@minnames=\count383
-\c@maxitems=\count384
-\c@minitems=\count385
-\c@citecounter=\count386
-\c@savedcitecounter=\count387
-\c@uniquelist=\count388
-\c@uniquename=\count389
-\c@refsection=\count390
-\c@refsegment=\count391
-\c@maxextratitle=\count392
-\c@maxextratitleyear=\count393
-\c@maxextradate=\count394
-\c@maxextraalpha=\count395
-\c@abbrvpenalty=\count396
-\c@highnamepenalty=\count397
-\c@lownamepenalty=\count398
-\c@maxparens=\count399
-\c@parenlevel=\count400
-\blx@tempcnta=\count401
-\blx@tempcntb=\count402
-\blx@tempcntc=\count403
-\blx@maxsection=\count404
-\blx@maxsegment@0=\count405
-\blx@notetype=\count406
-\blx@parenlevel@text=\count407
-\blx@parenlevel@foot=\count408
-\blx@sectionciteorder@0=\count409
-\labelnumberwidth=\skip85
-\labelalphawidth=\skip86
-\biblabelsep=\skip87
-\bibitemsep=\skip88
-\bibnamesep=\skip89
-\bibinitsep=\skip90
-\bibparsep=\skip91
-\bibhang=\skip92
+\c@tabx@nest=\count376
+\c@listtotal=\count377
+\c@listcount=\count378
+\c@liststart=\count379
+\c@liststop=\count380
+\c@citecount=\count381
+\c@citetotal=\count382
+\c@multicitecount=\count383
+\c@multicitetotal=\count384
+\c@instcount=\count385
+\c@maxnames=\count386
+\c@minnames=\count387
+\c@maxitems=\count388
+\c@minitems=\count389
+\c@citecounter=\count390
+\c@savedcitecounter=\count391
+\c@uniquelist=\count392
+\c@uniquename=\count393
+\c@refsection=\count394
+\c@refsegment=\count395
+\c@maxextratitle=\count396
+\c@maxextratitleyear=\count397
+\c@maxextradate=\count398
+\c@maxextraalpha=\count399
+\c@abbrvpenalty=\count400
+\c@highnamepenalty=\count401
+\c@lownamepenalty=\count402
+\c@maxparens=\count403
+\c@parenlevel=\count404
+\blx@tempcnta=\count405
+\blx@tempcntb=\count406
+\blx@tempcntc=\count407
+\blx@maxsection=\count408
+\blx@maxsegment@0=\count409
+\blx@notetype=\count410
+\blx@parenlevel@text=\count411
+\blx@parenlevel@foot=\count412
+\blx@sectionciteorder@0=\count413
+\labelnumberwidth=\skip91
+\labelalphawidth=\skip92
+\biblabelsep=\skip93
+\bibitemsep=\skip94
+\bibnamesep=\skip95
+\bibinitsep=\skip96
+\bibparsep=\skip97
+\bibhang=\skip98
 \blx@bcfin=\read4
 \blx@bcfout=\write8
-\c@mincomprange=\count410
-\c@maxcomprange=\count411
-\c@mincompwidth=\count412
+\c@mincomprange=\count414
+\c@maxcomprange=\count415
+\c@mincompwidth=\count416
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -2818,88 +2837,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count413
-\c@savedafterword=\count414
-\c@annotator=\count415
-\c@savedannotator=\count416
-\c@author=\count417
-\c@savedauthor=\count418
-\c@bookauthor=\count419
-\c@savedbookauthor=\count420
-\c@commentator=\count421
-\c@savedcommentator=\count422
-\c@editor=\count423
-\c@savededitor=\count424
-\c@editora=\count425
-\c@savededitora=\count426
-\c@editorb=\count427
-\c@savededitorb=\count428
-\c@editorc=\count429
-\c@savededitorc=\count430
-\c@foreword=\count431
-\c@savedforeword=\count432
-\c@holder=\count433
-\c@savedholder=\count434
-\c@introduction=\count435
-\c@savedintroduction=\count436
-\c@namea=\count437
-\c@savednamea=\count438
-\c@nameb=\count439
-\c@savednameb=\count440
-\c@namec=\count441
-\c@savednamec=\count442
-\c@translator=\count443
-\c@savedtranslator=\count444
-\c@shortauthor=\count445
-\c@savedshortauthor=\count446
-\c@shorteditor=\count447
-\c@savedshorteditor=\count448
-\c@labelname=\count449
-\c@savedlabelname=\count450
-\c@institution=\count451
-\c@savedinstitution=\count452
-\c@lista=\count453
-\c@savedlista=\count454
-\c@listb=\count455
-\c@savedlistb=\count456
-\c@listc=\count457
-\c@savedlistc=\count458
-\c@listd=\count459
-\c@savedlistd=\count460
-\c@liste=\count461
-\c@savedliste=\count462
-\c@listf=\count463
-\c@savedlistf=\count464
-\c@location=\count465
-\c@savedlocation=\count466
-\c@organization=\count467
-\c@savedorganization=\count468
-\c@origlocation=\count469
-\c@savedoriglocation=\count470
-\c@origpublisher=\count471
-\c@savedorigpublisher=\count472
-\c@publisher=\count473
-\c@savedpublisher=\count474
-\c@language=\count475
-\c@savedlanguage=\count476
-\c@origlanguage=\count477
-\c@savedoriglanguage=\count478
-\c@pageref=\count479
-\c@savedpageref=\count480
-\shorthandwidth=\skip93
-\shortjournalwidth=\skip94
-\shortserieswidth=\skip95
-\shorttitlewidth=\skip96
-\shortauthorwidth=\skip97
-\shorteditorwidth=\skip98
-\locallabelnumberwidth=\skip99
-\locallabelalphawidth=\skip100
-\localshorthandwidth=\skip101
-\localshortjournalwidth=\skip102
-\localshortserieswidth=\skip103
-\localshorttitlewidth=\skip104
-\localshortauthorwidth=\skip105
-\localshorteditorwidth=\skip106
+\c@afterword=\count417
+\c@savedafterword=\count418
+\c@annotator=\count419
+\c@savedannotator=\count420
+\c@author=\count421
+\c@savedauthor=\count422
+\c@bookauthor=\count423
+\c@savedbookauthor=\count424
+\c@commentator=\count425
+\c@savedcommentator=\count426
+\c@editor=\count427
+\c@savededitor=\count428
+\c@editora=\count429
+\c@savededitora=\count430
+\c@editorb=\count431
+\c@savededitorb=\count432
+\c@editorc=\count433
+\c@savededitorc=\count434
+\c@foreword=\count435
+\c@savedforeword=\count436
+\c@holder=\count437
+\c@savedholder=\count438
+\c@introduction=\count439
+\c@savedintroduction=\count440
+\c@namea=\count441
+\c@savednamea=\count442
+\c@nameb=\count443
+\c@savednameb=\count444
+\c@namec=\count445
+\c@savednamec=\count446
+\c@translator=\count447
+\c@savedtranslator=\count448
+\c@shortauthor=\count449
+\c@savedshortauthor=\count450
+\c@shorteditor=\count451
+\c@savedshorteditor=\count452
+\c@labelname=\count453
+\c@savedlabelname=\count454
+\c@institution=\count455
+\c@savedinstitution=\count456
+\c@lista=\count457
+\c@savedlista=\count458
+\c@listb=\count459
+\c@savedlistb=\count460
+\c@listc=\count461
+\c@savedlistc=\count462
+\c@listd=\count463
+\c@savedlistd=\count464
+\c@liste=\count465
+\c@savedliste=\count466
+\c@listf=\count467
+\c@savedlistf=\count468
+\c@location=\count469
+\c@savedlocation=\count470
+\c@organization=\count471
+\c@savedorganization=\count472
+\c@origlocation=\count473
+\c@savedoriglocation=\count474
+\c@origpublisher=\count475
+\c@savedorigpublisher=\count476
+\c@publisher=\count477
+\c@savedpublisher=\count478
+\c@language=\count479
+\c@savedlanguage=\count480
+\c@origlanguage=\count481
+\c@savedoriglanguage=\count482
+\c@pageref=\count483
+\c@savedpageref=\count484
+\shorthandwidth=\skip99
+\shortjournalwidth=\skip100
+\shortserieswidth=\skip101
+\shorttitlewidth=\skip102
+\shortauthorwidth=\skip103
+\shorteditorwidth=\skip104
+\locallabelnumberwidth=\skip105
+\locallabelalphawidth=\skip106
+\localshorthandwidth=\skip107
+\localshortjournalwidth=\skip108
+\localshortserieswidth=\skip109
+\localshorttitlewidth=\skip110
+\localshortauthorwidth=\skip111
+\localshorteditorwidth=\skip112
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (c:/texlive/2018/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -2912,13 +2931,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count481
-\c@textcitetotal=\count482
-\c@textcitemaxnames=\count483
-\c@biburlnumpenalty=\count484
-\c@biburlucpenalty=\count485
-\c@biburllcpenalty=\count486
-\c@smartand=\count487
+\c@textcitecount=\count485
+\c@textcitetotal=\count486
+\c@textcitemaxnames=\count487
+\c@biburlnumpenalty=\count488
+\c@biburlucpenalty=\count489
+\c@biburllcpenalty=\count490
+\c@smartand=\count491
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -2928,8 +2947,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count488
-\c@bbx:relatedtotal=\count489
+\c@bbx:relatedcount=\count492
+\c@bbx:relatedtotal=\count493
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -2959,48 +2978,48 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks47
 \XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count490
+\XKV@depth=\count494
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 ) (c:/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count491
-\calc@Bcount=\count492
-\calc@Adimen=\dimen357
-\calc@Bdimen=\dimen358
-\calc@Askip=\skip107
-\calc@Bskip=\skip108
+\calc@Acount=\count495
+\calc@Bcount=\count496
+\calc@Adimen=\dimen359
+\calc@Bdimen=\dimen360
+\calc@Askip=\skip113
+\calc@Bskip=\skip114
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count493
-\calc@Cskip=\skip109
+\calc@Ccount=\count497
+\calc@Cskip=\skip115
 ) (c:/texlive/2018/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2018/04/06 v0.23 driver independent access to low-level PDF features
-\g_pbs_page_int=\count494
-\g_pbs_obj_int=\count495
-\g_pbs_oc_int=\count496
+\g_pbs_page_int=\count498
+\g_pbs_obj_int=\count499
+\g_pbs_oc_int=\count500
 ) (c:/texlive/2018/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2018/04/06 v0.13 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count497
+\g_ocgbase_nd_int=\count501
 )
 \@anim@box=\box123
 \@anim@measbox=\box124
-\@anim@tmpdima=\dimen359
-\@anim@tmpdimb=\dimen360
-\@anim@num=\count498
-\@anim@curframe=\count499
-\@anim@curframe@zb=\count500
-\@anim@resizeflags=\count501
-\@anim@skipfram=\count502
-\@anim@mulframecnt=\count503
+\@anim@tmpdima=\dimen361
+\@anim@tmpdimb=\dimen362
+\@anim@num=\count502
+\@anim@curframe=\count503
+\@anim@curframe@zb=\count504
+\@anim@resizeflags=\count505
+\@anim@skipfram=\count506
+\@anim@mulframecnt=\count507
 \@anim@@tmlnfile=\read5
-\@anim@tmpcnt=\count504
-\c@@anim@ltxcnt=\count505
-\@anim@curlayer=\count506
-\@anim@lineno=\count507
-\@anim@curfield=\count508
-\@anim@@resizeflags=\count509
+\@anim@tmpcnt=\count508
+\c@@anim@ltxcnt=\count509
+\@anim@curlayer=\count510
+\@anim@lineno=\count511
+\@anim@curfield=\count512
+\@anim@@resizeflags=\count513
 ) (c:/texlive/2018/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
  (c:/texlive/2018/texmf-dist/tex/latex/pgfopts/pgfopts.sty
@@ -3013,58 +3032,58 @@ Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
  (c:/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
  (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen361
-\pgffor@skip=\dimen362
+\pgffor@iter=\dimen363
+\pgffor@skip=\dimen364
 \pgffor@stack=\toks51
 \pgffor@toks=\toks52
 )) (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
  (c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count510
-\pgfplotmarksize=\dimen363
+\pgf@plot@mark@count=\count514
+\pgfplotmarksize=\dimen365
 )
-\tikz@lastx=\dimen364
-\tikz@lasty=\dimen365
-\tikz@lastxsaved=\dimen366
-\tikz@lastysaved=\dimen367
-\tikzleveldistance=\dimen368
-\tikzsiblingdistance=\dimen369
+\tikz@lastx=\dimen366
+\tikz@lasty=\dimen367
+\tikz@lastxsaved=\dimen368
+\tikz@lastysaved=\dimen369
+\tikzleveldistance=\dimen370
+\tikzsiblingdistance=\dimen371
 \tikz@figbox=\box125
 \tikz@figbox@bg=\box126
 \tikz@tempbox=\box127
 \tikz@tempbox@bg=\box128
-\tikztreelevel=\count511
-\tikznumberofchildren=\count512
-\tikznumberofcurrentchild=\count513
-\tikz@fig@count=\count514
+\tikztreelevel=\count515
+\tikznumberofchildren=\count516
+\tikznumberofcurrentchild=\count517
+\tikz@fig@count=\count518
  (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count515
-\pgfmatrixcurrentcolumn=\count516
-\pgf@matrix@numberofcolumns=\count517
+\pgfmatrixcurrentrow=\count519
+\pgfmatrixcurrentcolumn=\count520
+\pgf@matrix@numberofcolumns=\count521
 )
-\tikz@expandcount=\count518
+\tikz@expandcount=\count522
  (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-\metropolis@titleseparator@linewidth=\skip110
-\metropolis@progressonsectionpage=\skip111
-\metropolis@progressonsectionpage@linewidth=\skip112
-\metropolis@blocksep=\skip113
-\metropolis@blockadjust=\skip114
-\metropolis@parskip=\skip115
+\metropolis@titleseparator@linewidth=\skip116
+\metropolis@progressonsectionpage=\skip117
+\metropolis@progressonsectionpage@linewidth=\skip118
+\metropolis@blocksep=\skip119
+\metropolis@blockadjust=\skip120
+\metropolis@parskip=\skip121
 ) (c:/texlive/2018/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.sty
 Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
-\metropolis@frametitle@padding=\skip116
-\metropolis@progressinheadfoot=\skip117
-\metropolis@progressinheadfoot@linewidth=\skip118
+\metropolis@frametitle@padding=\skip122
+\metropolis@progressinheadfoot=\skip123
+\metropolis@progressinheadfoot@linewidth=\skip124
 ) (c:/texlive/2018/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
 Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
 ) (c:/texlive/2018/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
 Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
-\c@fontsnotfound=\count519
-\g__fontspec_family_FiraSansLight_int=\count520
+\c@fontsnotfound=\count523
+\g__fontspec_family_FiraSansLight_int=\count524
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3092,7 +3111,7 @@ Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
 . Italic/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Info: Redefining \sffamily on input line 95.
-\g__fontspec_family_FiraMono_int=\count521
+\g__fontspec_family_FiraMono_int=\count525
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -3136,7 +3155,7 @@ LaTeX Info: Redefining \sffamily on input line 95.
 .................................................
 LaTeX Info: Redefining \ttfamily on input line 95.
 ))
-\g__fontspec_family_TimesNewRoman_int=\count522
+\g__fontspec_family_TimesNewRoman_int=\count526
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3163,7 +3182,7 @@ LaTeX Info: Redefining \ttfamily on input line 95.
 . Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 7.
-\g__fontspec_family_Arial_int=\count523
+\g__fontspec_family_Arial_int=\count527
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3190,7 +3209,7 @@ LaTeX Info: Redefining \rmfamily on input line 7.
 . <->"Arial/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Info: Redefining \sffamily on input line 8.
-\g__fontspec_family_Cambria_int=\count524
+\g__fontspec_family_Cambria_int=\count528
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3232,7 +3251,7 @@ LaTeX Info: Redefining \sffamily on input line 8.
 . \tex_hyphenchar:D \font =-1\scan_stop: 
 .................................................
 LaTeX Info: Redefining \ttfamily on input line 9.
-\g__fontspec_family_MicrosoftYaHei_int=\count525
+\g__fontspec_family_MicrosoftYaHei_int=\count529
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -3266,8 +3285,8 @@ Package biblatex Info: ... file 'english.lbx' found.
  (c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
-\@quotelevel=\count526
-\@quotereset=\count527
+\@quotelevel=\count530
+\@quotereset=\count531
  (./ppt.aux)
 \openout1 = `ppt.aux'.
 
@@ -3334,7 +3353,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (c:/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count528
+\c@section@level=\count532
 )
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
@@ -3496,7 +3515,7 @@ Overfull \vbox (15.63992pt too high) detected at line 23
 ]
 
 Package amsmath Warning: Cannot use `split' here;
-(amsmath)                trying to recover with `aligned' on input line 63.
+(amsmath)                trying to recover with `aligned' on input line 65.
 
 [5
 
@@ -3505,7 +3524,7 @@ Package amsmath Warning: Cannot use `split' here;
 ] [7
 
 ]
-Overfull \vbox (0.41682pt too high) detected at line 106
+Overfull \vbox (0.41682pt too high) detected at line 108
  []
 
 [8
@@ -3522,23 +3541,35 @@ Overfull \vbox (0.41682pt too high) detected at line 106
 
 ] [14
 
-] [15
+] (./je.tex [15
 
 ]
 File: ./figs/jarz.jpg Graphic file (type bmp)
 <./figs/jarz.jpg>
- [16
+File: ./figs/Gavin_Crooks.jpg Graphic file (type bmp)
+<./figs/Gavin_Crooks.jpg>
+
+Overfull \vbox (18.14442pt too high) detected at line 34
+ []
+
+[16
+
+] [17
 
 ]
-File: ./figs/parameter.png Graphic file (type bmp)
-<./figs/parameter.png>
- [17
+File: ./figs/para.png Graphic file (type bmp)
+<./figs/para.png>
+ [18
 
-] [18
+]
+File: ./figs/pw.png Graphic file (type bmp)
+<./figs/pw.png>
+ [19
 
-] [19
-
-] [20
+]
+File: ./figs/pw.png Graphic file (type bmp)
+<./figs/pw.png>
+ [20
 
 ] [21
 
@@ -3547,6 +3578,114 @@ File: ./figs/parameter.png Graphic file (type bmp)
 ] [23
 
 ] [24
+
+] [25
+
+] [26
+
+] [27
+
+] [28
+
+] [29
+
+]
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Arial(1)' created for font 'Arial' with options
+. [Ligatures=TeX,Numbers={Monospaced}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Arial/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->"Arial/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"Arial/B/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->"Arial/B/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->"Arial/I/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->"Arial/I/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"Arial/BI/OT:script=latn;language=DFLT;+tnum;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->"Arial/BI/OT:script=latn;language=DFLT;+tnum;+smcp;mapping=tex-text;"
+.................................................
+ [30
+
+] [31
+
+] [32
+
+]
+Overfull \hbox (9.46512pt too wide) detected at line 243
+[]
+ []
+
+[33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+]
+File: ./figs/doggy.png Graphic file (type bmp)
+<./figs/doggy.png>
+ [38
+
+]
+File: ./figs/doggy.png Graphic file (type bmp)
+<./figs/doggy.png>
+ [39
+
+] [40
+
+] [41
+
+])
+\g__fontspec_family_FangSong_int=\count533
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FangSong/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FangSong/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FangSong/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FangSong(0)' created for font 'FangSong' with options
+. [Script={CJK}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"FangSong/OT:script=hani;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+ [42
+
+] [43
+
+
+] [44
+
 
 ]
 \tf@nav=\write9
@@ -3558,22 +3697,22 @@ File: ./figs/parameter.png Graphic file (type bmp)
 \tf@snm=\write11
 \openout11 = `ppt.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (./ppt.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 295.
 Package logreq Info: Writing requests to 'ppt.run.xml'.
 \openout1 = `ppt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48684 strings out of 492970
- 1022807 string characters out of 6137297
- 1464883 words of memory out of 5000000
- 51841 multiletter control sequences out of 15000+600000
- 539229 words of font info for 127 fonts, out of 8000000 for 9000
+ 49220 strings out of 492970
+ 1033909 string characters out of 6137297
+ 1471017 words of memory out of 5000000
+ 52349 multiletter control sequences out of 15000+600000
+ 540995 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 71i,24n,95p,10637b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,24n,95p,10637b,4840s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ppt.xdv (24 pages, 126724 bytes).
+Output written on ppt.xdv (44 pages, 253956 bytes).

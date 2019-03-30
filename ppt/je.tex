@@ -1,0 +1,323 @@
+% \documentclass[aspectratio=169]{wzbeamer}
+% \usepackage[hyperref=true,style=numeric,backend=biber,sorting=nty,autocite=inline,backref=true,urldate=iso,date=iso,seconds=true]{biblatex}
+% \addbibresource{ref.bib}
+% \usepackage{animate}
+% \usetheme[progressbar=frametitle, numbering=counter]{metropolis}
+% \usepackage{fontspec}
+% \setmainfont{Times New Roman}
+% \setsansfont{Arial}
+% \setmonofont{Cambria}
+
+% \usepackage{etoolbox} % for '\AtBeginEnvironment' macro
+% \AtBeginEnvironment{pmatrix}{\everymath{\displaystyle}}
+
+% \graphicspath{{./figs/}}
+
+% % \newcommand{\Pr}{\text{Pr}}
+% \begin{document}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Jarzynski Equality}
+    %==========================================================
+    \subsection{Introduction}
+    \begin{frame}{Jarzynski \& Crooks}
+        \hspace{.05\textwidth}
+        \begin{figure}
+            \centering
+            \subfigure[Christopher Jarzynski]{
+                \includegraphics[width=.3\textwidth]{jarz.jpg}
+            }
+            \vspace{.05\textwidth}
+            \subfigure[Gavin E. Crooks]{
+                \includegraphics[width=.5\textwidth]{Gavin_Crooks.jpg}
+            }
+        \end{figure}
+    \end{frame}
+    \begin{frame}{正则系综与自由能}
+        当系统与一个温度为$T$的大热库有热接触时, 平衡态系综的微观态分布满足, 
+        \begin{equation}
+            \rho(\vb*x) = \ee^{\beta(F - H(\vb*x))}, \quad \int_\Gamma\dd\vb*x\ \rho(\vb*x) = 1,\quad \beta = \frac1{k_B T}
+        \end{equation}
+        $F$为自由能, 由归一化决定,
+        \begin{equation}
+            \ee^{-\beta F} = \int_\Gamma\dd\vb*x\ \ee^{- \beta H(\vb*x)}
+        \end{equation}
+        更加普适的定义是,
+        \begin{equation}
+            F = \expval{H} - T S,\quad S = -\int_\Gamma\dd\vb*x\ \rho(\vb*x)\ln \rho(\vb*x)
+        \end{equation}
+    \end{frame}
+    \begin{frame}{热力学第二定律}
+        \begin{columns}
+            \column{.5\textwidth}
+            热力学第二定律,
+            \begin{equation}
+                \dbar Q \leqslant T\dd S 
+            \end{equation}
+            当系统和大热库始终处于热平衡的情况下, 从$A\to B$,
+            \begin{equation}
+                F_B - F_A = \Delta F \leqslant W^F 
+            \end{equation}
+            统计解释,
+            \begin{equation}
+                \Delta F \leqslant \expval{W^F} = \int W\rho^F(W)\dd W
+            \end{equation}
+            \column{.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{para.png}
+                \caption{哈密顿量参数空间}
+            \end{figure}
+        \end{columns}
+    \end{frame}
+    \begin{frame}{热力学第二定理}
+        \begin{columns}
+            \column{.5\textwidth}
+            我们考虑一下逆过程, $B\to A$,
+            \begin{equation}
+                F_A - F_B \leqslant \expval{W^R} = \int W\rho^R(W)\dd W
+            \end{equation}
+            把两个过程放在一起观察,
+            \begin{equation}
+                - \expval{W^R} \leqslant \Delta F \leqslant \expval{W^F}
+            \end{equation}
+            \pause
+            \column{.5\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\textwidth]{pw.png}
+                \caption{概率分布}
+            \end{figure}
+        \end{columns}
+    \end{frame}
+    \begin{frame}{主要结论}
+        \begin{itemize}
+            \item Jarzynski Equality(JE):
+            \begin{equation}
+                \expval{\ee^{-\beta W}} = \ee^{-\beta \Delta F}
+            \end{equation}
+            \item Crooks Fluctuation Theorrem(CFT):
+            \begin{equation}
+                \frac{P^F(\omega)}{P^R(-\omega)} = \ee^{\omega}\quad\Rightarrow\quad \frac{\rho^F(W)}{\rho^R(-W)} = \ee^{\beta(W - \Delta F)}
+            \end{equation}
+        \end{itemize}
+    \end{frame}
+    %==========================================================
+    \subsection{Jarzynski Equality(JE)}
+    \begin{frame}{JE}
+        \begin{alertblock}{Jarzynski Equality}
+            将一个与温度为$T$的大热库热接触的系统, 改变系统的宏观参数, 从$A\to B$, $A$和$B$都是平衡态, 对于各种可能的做功, 我们有,
+            \begin{equation}
+                \expval{\ee^{-\beta W}} = \ee^{-\beta \Delta F}
+            \end{equation}
+        \end{alertblock}   
+    \end{frame}
+    \begin{frame}{证明}
+        Jarzynski在1997年的PRL中实际上只给出了一种特殊情形下的证明, 我们考虑一个系统, 刚开始时和大热库处于热平衡, 满足正则系综, 然后进行控制参数的改变, 改变过程中和热库之间没有热量交换, 也无需处于平衡态, 结束之后, 保持控制参数不变, 系统和热库接触, 回到温度$T$. 
+        
+        哈密顿量$H = H(\vb*x,\lambda)$, 对于每一个参数$\lambda$, 都可以得到一个自由能$F_\lambda$,
+        \begin{equation}
+            \ee^{-\beta F_\lambda} = \int\dd\vb*x\ \ee^{-\beta H(\vb*x, \lambda)}
+        \end{equation}
+    \end{frame}
+    \begin{frame}{证明}
+        系统哈密顿量变化,
+        \begin{equation}
+            \dd H = \dd Q + \dd W \quad\Leftrightarrow\quad \dd{H(\vb*x(t),\lambda(t))} = \dd\vb*x\pdv{H}{\vb*x}  + \dd\lambda\pdv{H}{\lambda}
+        \end{equation}
+        可以知道做功$W$,
+        \begin{equation}
+            W = \int_0^{t_s} \dd t\ \dot\lambda\pdv{H}{\lambda} = H(\vb*x(t_s),B) - H(\vb*x(0),A)
+        \end{equation}
+        $W$与路径无关, $W = W(\vb*(x_0))$,
+        \begin{equation}
+            \expval{\ee^{-\beta W}} = \int \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(0),A)}}{Z_A} \cdot \ee^{H(\vb*x(t_s),B) - H(\vb*x(0),A)} = \int  \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x_(t_s),B)}}{Z_A}
+        \end{equation}
+    \end{frame}
+    \begin{frame}{证明}
+        根据Liouville定理,
+        \begin{equation*}
+            \expval{\ee^{-\beta W}} = \int \dd\vb*x(t_s) \cdot \left|\pdv{\vb*x(t_s)}{\vb*x(0)}\right|^{-1} \cdot \frac{\ee^{-\beta H(\vb*x_(t_s),B)}}{Z_A} = \frac{Z_B}{Z_A}
+        \end{equation*}
+        \begin{equation}
+            \Rightarrow\quad \expval{\ee^{-\beta W}} = \ee^{-\beta \Delta F}
+        \end{equation}
+    \end{frame}
+
+    %==========================================================
+    \subsection{Crooks Fluctuation Theorem(CFT)}
+    \begin{frame}{系统演化}
+        之前从哈密顿正则方程出发的演化方式, 相当于基于微正则系综. 这种方式的计算显然是有局限性的. 在之前的情形中, 若要考虑热量交换, 就必须考虑相互作用,
+        \begin{equation}
+            G(\vb*x,\vb*x') = H(\vb*x) + H'(\vb*x') + h_{int}(\vb*x,\vb*x')        
+        \end{equation}
+        事情变得非常复杂, 我们需要寻找新的角度来考察系统的演化.
+    \end{frame}
+    \begin{frame}{Markov Chain and Detailed Balance}
+        \begin{block}{Markov Chain}
+            有一列随机变量$\{X_0,X_1,X_2,\dots\}$, 若满足下式, 则称之为Markov链
+            \begin{equation}
+                \Pr(X_{n+1}=a_{n+1} | X_{n} = a_n, X_{n-1} = a_{n-1},\dots) = \Pr(X_{n+1}=a_{n+1} | X_{n} = a_n)
+            \end{equation}
+        \end{block}
+        对于离散变量空间和离散时间的情形, 我们只需要知道每一步的转移矩阵$M_n$, 就知道系统的演化,
+        \begin{equation}
+            M_{n,ij} = \Pr(X_{n+1} = x_i| X_n = x_j),\ \sum_i M_{n,ij} = 1
+        \end{equation}
+        若$X_n$的概率分布是$\vb*\pi^{(n)} = [\pi^{(n)}_1,\pi^{(n)}_2,\dots]^T$,那么,
+        \begin{equation}
+            \vb*\pi^{(n+1)} = M_n \vb*\pi^{(n)} = M_nM_{n-1}\cdots M_0\vb*\pi^{(0)}
+        \end{equation}
+    \end{frame}
+    \begin{frame}{Markov Chain and Detailed Balance}
+        对于连续变量和连续时间的情形,
+        \begin{equation}
+            \rho(\vb*x, t) = \int p(\vb*x,t; \vb*x', t') \rho(\vb*x', t')\dd\vb*x'
+        \end{equation}
+        如果一个演化方式和初始时间无关, 只和时间差有关, 我们称这样的Markov链是时齐的(time homogeneous).
+        \begin{equation}
+            p(\vb*x,t; \vb*x',t') = p(\vb*x'\to\vb*x, \Delta t)
+        \end{equation}
+    \end{frame}
+    \begin{frame}{Markov Chain and Detailed Balance}
+        如果有一个分布在演化下保持不变, 这就是平衡态, 他应该满足,
+        \begin{equation}
+            \rho(\vb*x) = \int p(\vb*x'\to\vb*x, t)\rho(\vb*x')\dd\vb*x',\quad\forall t>0
+        \end{equation}
+        显然平衡态对于转移概率$p(\vb*x'\to\vb*x,t)$的约束在数学上并不那么强, 我们基于物理的考虑给他赋予一些新的性质.
+        \begin{block}{Detailed Balance}
+            \begin{equation}
+                \rho(\hat{\vb*x})p(\hat{\vb*x}\to\hat{\vb*x}',t) = \rho(\vb*x')p(\vb*x'\to\vb*x,t)
+            \end{equation}
+            $\hat{\vb*x}$表示时间反演, i.e.$\ q\to q, p\to -p$.(这也被称为微观可逆性)
+        \end{block}
+        % 时间反演对称性
+        % \begin{equation}
+        %     \rho(\hat{\vb*x}) = \rho(\vb*x)
+        % \end{equation}
+    \end{frame}
+    \begin{frame}{Markov Chain and Detailed Balance}
+        对于不同的情况,
+        \begin{table}[H]
+            \centering
+            \begin{tabular}{cccc}
+                \toprule
+                &微正则 & 正则 & 特殊($p$,$T$确定)\\
+                \midrule
+                $\dfrac{p(\hat{\vb*x}\to\hat{\vb*x}',t)}{p(\vb*x'\to\vb*x,t)}$ & 1 &$\ee^{-\beta(H(\vb*x') - H(\hat{\vb*x}))}$ & $\ee^{-\beta(\Delta H + p \Delta V)}$\\
+                \bottomrule
+            \end{tabular}
+        \end{table}
+    \end{frame}
+    \begin{frame}{概率密度}
+        最后介绍一个求概率密度的公式, 现在有一个变量$x$的概率分布为$f(x)$, 对于一个新的变量$\omega = \omega(x)$, 它满足概率分布$\rho(\omega)$, 
+        \begin{equation}
+            \rho(\omega) = \int \delta(\omega(x) - \omega) f(x)\dd x
+        \end{equation}
+    \end{frame}
+    \begin{frame}{CFT}
+        \begin{alertblock}{Crooks Fluctuation Theorem}
+            \begin{equation}
+                \frac{P^F(\omega)}{P^R(-\omega)} = \ee^{\omega}
+            \end{equation}
+            系统和温度为$T$的大热库接触, $\omega$是一个确定参数变化过程$\lambda(t))(t\in[0,\tau])$中整个体系的熵产生, $P^F,P^R$是正过程和逆过程的熵产生分布函数.
+        \end{alertblock}
+        $k_B = 1$
+    \end{frame}
+    \begin{frame}{证明}
+        对于相空间中某一条路径$\vb*x(t)$, 我们考虑沿这条路径的概率,
+        $$
+        F: x(0)\xrightarrow{\lambda(t_1)}x(t_1)\xrightarrow{\lambda(t_2)}x(t_2)\cdots \xrightarrow{\lambda(\tau)}x(\tau)
+        $$
+        $$
+        R:  \hat x(0)\xleftarrow{\lambda(t_1)}\hat x(t_1)\xleftarrow{\lambda(t_2)}\hat x(t_2)\cdots \xleftarrow{\lambda(\tau)}\hat x(\tau)
+        $$
+        \begin{equation}
+            \begin{split}
+                \mathcal{P}^F[\vb*x(t)]\dd\vb*x_0\dd\vb*x_1\cdots\dd\vb*x_\tau &\approx\rho^F_0(\vb*x_0) \dd \vb*x_0p_1(\vb*x_0\to\vb*x_1,t_1)\dd\vb*x_1 \cdots p_n(\vb*x_{n-1}\to\vb*x_\tau,\tau-t_{n-1})\dd\vb*x_\tau\\
+                \mathcal{P}^R[\hat{\vb*x}(\tau-t)]\dd\vb*x_0\dd\vb*x_1\cdots\dd\vb*x_\tau &\approx \dd\vb*x_0p_1(\hat{\vb*x}_0\leftarrow\hat{\vb*x}_1,t_1)\dd\vb*x_1 \cdots p_n(\hat{\vb*x}_{n-1}\leftarrow\hat{\vb*x}_\tau,\tau-t_{n-1})\dd\vb*x_\tau\rho^R_\tau(\hat{\vb*x}_\tau)
+            \end{split}
+        \end{equation}
+        $p_i$表示在$\lambda(t_i)$的条件下进行演化. 利用之前的对于细致平衡的讨论,
+        \[\dfrac{p(\hat{\vb*x}\to\hat{\vb*x}',t)}{p(\vb*x'\to\vb*x,t)} = \ee^{-\beta(H(\vb*x') - H(\hat{\vb*x}))}
+            \]
+    \end{frame}
+    \begin{frame}{证明}
+        可以得到微观可逆性条件,
+        \begin{equation}
+            \begin{split}
+                \frac{\mathcal{P}^F[\vb*x(t)]}{\mathcal{P}^R[\hat{\vb*x}(\tau-t)]} &= \frac{\rho^F_0(\vb*x_0)}{\rho^R_\tau(\hat{\vb*x}_\tau)}\exp(-\beta\sum_i [H(\vb*x_i,\lambda_i) - H(\vb*x_{i-1},\lambda_i)]) \\
+                &= \frac{\rho^F_0(\vb*x_0)}{\rho^R_\tau(\hat{\vb*x}_\tau)}\exp(-\beta\int\dd t\ \dot{\vb*x}\pdv{H(\vb*x,\lambda)}{\vb*x})\\
+                &= \frac{\rho^F_0(\vb*x_0)}{\rho^R_\tau(\hat{\vb*x}_\tau)}\exp(-\beta Q)
+            \end{split}
+        \end{equation}
+    \end{frame}
+    \begin{frame}{证明}
+        我们认为$S = \sum_{\vb*x} - \rho(\vb*x)\ln\rho(\vb*x)$, 
+        正向熵产生$\omega^F$, 
+        \begin{equation}
+            \omega^F = \ln\rho^F_0(\vb*x(0)) - \ln\rho^F_\tau(\vb*x(\tau)) - \beta Q
+        \end{equation}
+        从而,
+        \begin{equation}
+            \ee^{\omega^F} = \frac{\rho^R_\tau(\hat{\vb*x}(\tau))}{\rho^F_\tau(\vb*x(\tau))}\cdot\frac{\mathcal{P}^F[\vb*x(t)]}{\mathcal{P}^R[\hat{\vb*x}(\tau-t)]} = \frac{\mathcal{P}^F[\vb*x(t)]}{\mathcal{P}^R[\hat{\vb*x}(\tau-t)]}
+        \end{equation}
+        最后一个等号我们假设有一个时间反演对称性,
+        \begin{equation}
+            \rho^F(\vb*x) = \rho^R(\hat{\vb*x})
+        \end{equation}
+        也可以得到$\omega^R = -\omega^F$
+    \end{frame}
+    \begin{frame}{证明}
+        至此, 我们可以求出$P^F(\omega)$,
+        \begin{equation}
+            \begin{split}
+                P^F(\omega) &= \int\delta(\omega-\omega^F) \mathcal P^F[\vb*x(t)]\mathcal D[\vb*x(t)]\\
+                &= \ee^{\omega}\int\delta(\omega+\omega^R)\mathcal{P}^R[\hat{\vb*x}(\tau-t)]\mathcal D[\vb*x(t)]\\
+                &= \ee^{\omega}P^R(-\omega)
+            \end{split}
+        \end{equation}
+    \end{frame}
+    \begin{frame}{CFT$\to$JE}
+        对于初末态是正则系综平衡态的情形,
+        \begin{equation}
+            \rho^F_0(\vb*x) = \ee^{\beta(F_A - H(\vb*x,A))},\quad \rho^F_\tau(\vb*x) = \ee^{\beta(F_B - H(\vb*x,B))}
+        \end{equation}
+        从而, 熵产生为,
+        \begin{equation}
+            \begin{split}
+                \omega^F &= \ln\rho^F_0(\vb*x(0)) - \ln\rho^F_\tau(\vb*x(\tau)) - \beta Q \\
+                &=\beta(H(\vb*x(0),B) - H(\vb*x(\tau),A)-Q) - \beta(F_B-F_A) \\
+                &= \beta(W-\Delta F)              
+            \end{split}
+        \end{equation}
+        因此可以知道,
+        \begin{equation}
+            \frac{P^F(\omega)}{P^R(-\omega)} = \ee^{\omega}\quad\Rightarrow\quad \frac{\rho^F(W)}{\rho^R(-W)} = \ee^{\beta(W - \Delta F)}
+        \end{equation}
+    \end{frame}
+    \begin{frame}{CFT$\to$JE}
+        \begin{equation}
+            \expval{\ee^{\beta( - W + \Delta F)}}_F = \int\dd W\rho^F(W) \ee^{\beta( - W + \Delta F)} = \int\dd W\rho^R(-W) = 1
+        \end{equation}
+        \pause
+        \includegraphics[width=100pt]{doggy.png}
+    \end{frame}
+    %==========================================================    
+    \subsection{The Second Law of Thermodynamics}
+    \begin{frame}{热力学第二定律}
+        热力学第二定理统计解释, 
+        \begin{equation}
+            \expval{\ee^{-\omega}} = \int\dd \omega P^F(\omega) \ee^{-\omega} = \int\dd \omega P^R(-\omega) = 1
+        \end{equation}
+        利用Jensen不等式,
+        \begin{equation}
+            1 = \expval{\ee^{-\omega}} \geqslant \ee^{-\expval{\omega}}\quad\Rightarrow\quad \expval{\omega} \geqslant 0
+        \end{equation}
+    \end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Experiment}
+    \subsection{JE}
+    \subsection{CFT}
+% \end{document}

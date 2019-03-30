@@ -19,7 +19,7 @@
 \RequirePackage{bbm}
 \RequirePackage{tcolorbox}
 \RequirePackage{graphicx}
-% \RequirePackage{subfigure}
+\RequirePackage{subfigure}
 % \RequirePackage{caption}
 \RequirePackage{siunitx}
 \RequirePackage{translator}
@@ -36,7 +36,7 @@
 \def\mathfamilydefault{\rmdefault}
 
 \definecolor[named]{link}{RGB}{141, 66, 245}
-\hypersetup{colorlinks,linkcolor=red!75!black,citecolor=blue}
+\hypersetup{colorlinks,linkcolor=link,citecolor=blue}
 
 
 \newcommand{\ee}{\mathrm{e}}
@@ -64,3 +64,5 @@ title=#1}
 
 \let\emph\relax % there's no \RedeclareTextFontCommand
 \DeclareTextFontCommand{\emph}{\bfseries\em}
+
+\newcommand{\dbar}{\dd\hspace*{-0.08em}\bar{}\hspace*{0.1em}}

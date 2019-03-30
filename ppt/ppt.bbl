@@ -16,5 +16,286 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{RN3}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f6e8190ba0e50153496030cd18d64e4e}{%
+           family={Collin},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e6c2e21a2e02fde6a0b964b00090336c}{%
+           family={Ritort},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=eed5e322c4148a0331fab6d1493dd0e4}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d0838dc657ec8502a088fca9a2471b82}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d7079c5e4ea67b9e4eb00e0b5978afde}{%
+           family={Tinoco},
+           familyi={T\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=67de062764244ee503f669be90e8b7da}{%
+           family={Bustamante},
+           familyi={B\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{abac77c587e9c4906f1b103cef9f79d3}
+      \strng{fullhash}{fe15be025809f5e2dac46eaa34edaea2}
+      \strng{bibnamehash}{abac77c587e9c4906f1b103cef9f79d3}
+      \strng{authorbibnamehash}{abac77c587e9c4906f1b103cef9f79d3}
+      \strng{authornamehash}{abac77c587e9c4906f1b103cef9f79d3}
+      \strng{authorfullhash}{fe15be025809f5e2dac46eaa34edaea2}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{7056}
+      \field{title}{Verification of the Crooks fluctuation theorem and recovery of RNA folding free energies}
+      \field{type}{Journal Article}
+      \field{volume}{437}
+      \field{year}{2005}
+      \field{pages}{231\bibrangedash 234}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature04061
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nature04061
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nature04061
+      \endverb
+    \endentry
+    \entry{PhysRevE.60.2721}{article}{}
+      \name{author}{1}{}{%
+        {{hash=404d5b1bd06ac3ae57a30078f80f802c}{%
+           family={Crooks},
+           familyi={C\bibinitperiod},
+           given={Gavin\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{404d5b1bd06ac3ae57a30078f80f802c}
+      \strng{fullhash}{404d5b1bd06ac3ae57a30078f80f802c}
+      \strng{bibnamehash}{404d5b1bd06ac3ae57a30078f80f802c}
+      \strng{authorbibnamehash}{404d5b1bd06ac3ae57a30078f80f802c}
+      \strng{authornamehash}{404d5b1bd06ac3ae57a30078f80f802c}
+      \strng{authorfullhash}{404d5b1bd06ac3ae57a30078f80f802c}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{9}
+      \field{title}{Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences}
+      \field{volume}{60}
+      \field{year}{1999}
+      \field{pages}{2721\bibrangedash 2726}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.60.2721
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.60.2721
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.60.2721
+      \endverb
+    \endentry
+    \entry{crooks1999excursions}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=cd2f455482f9122d85a153174edec772}{%
+           family={Crooks},
+           familyi={C\bibinitperiod},
+           given={Gavin\bibnamedelima Earl},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{cd2f455482f9122d85a153174edec772}
+      \strng{fullhash}{cd2f455482f9122d85a153174edec772}
+      \strng{bibnamehash}{cd2f455482f9122d85a153174edec772}
+      \strng{authorbibnamehash}{cd2f455482f9122d85a153174edec772}
+      \strng{authornamehash}{cd2f455482f9122d85a153174edec772}
+      \strng{authorfullhash}{cd2f455482f9122d85a153174edec772}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Excursions in statistical dynamics}
+      \field{type}{phdthesis}
+      \field{year}{1999}
+    \endentry
+    \entry{PhysRevLett.78.2690}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eed5e322c4148a0331fab6d1493dd0e4}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{eed5e322c4148a0331fab6d1493dd0e4}
+      \strng{fullhash}{eed5e322c4148a0331fab6d1493dd0e4}
+      \strng{bibnamehash}{eed5e322c4148a0331fab6d1493dd0e4}
+      \strng{authorbibnamehash}{eed5e322c4148a0331fab6d1493dd0e4}
+      \strng{authornamehash}{eed5e322c4148a0331fab6d1493dd0e4}
+      \strng{authorfullhash}{eed5e322c4148a0331fab6d1493dd0e4}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{14}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{4}
+      \field{title}{Nonequilibrium Equality for Free Energy Differences}
+      \field{volume}{78}
+      \field{year}{1997}
+      \field{pages}{2690\bibrangedash 2693}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.78.2690
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.78.2690
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.78.2690
+      \endverb
+    \endentry
+    \entry{Liphardt1832}{article}{}
+      \name{author}{5}{}{%
+        {{hash=986db9c0cc76a7ab8e004cfaec1e7ca4}{%
+           family={Liphardt},
+           familyi={L\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d24b45846a2e9de0d20aa17311d1b08}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9fdc7d725b89399b5845769628888a68}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=009b60eaa26fedf6e345dc42ac5d02d0}{%
+           family={Tinoco},
+           familyi={T\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=93ffd9559d4c5ce90a8f8d00745c6e06}{%
+           family={Bustamante},
+           familyi={B\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{147ce6c6989feca22cf05d549f0dd0ce}
+      \strng{fullhash}{df25e5704690b980c5a1bde61dd13841}
+      \strng{bibnamehash}{147ce6c6989feca22cf05d549f0dd0ce}
+      \strng{authorbibnamehash}{147ce6c6989feca22cf05d549f0dd0ce}
+      \strng{authornamehash}{147ce6c6989feca22cf05d549f0dd0ce}
+      \strng{authorfullhash}{df25e5704690b980c5a1bde61dd13841}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent advances in statistical mechanical theory can be used to solve a fundamental problem in experimental thermodynamics. In 1997, Jarzynski proved an equality relating the irreversible work to the equilibrium free energy difference, ΔG. This remarkable theoretical result states that it is possible to obtain equilibrium thermodynamic parameters from processes carried out arbitrarily far from equilibrium. We test Jarzynski{’}s equality by mechanically stretching a single molecule of RNA reversibly and irreversibly between two conformations. Application of this equality to the irreversible work trajectories recovers the ΔG profile of the stretching process to withink B T/2 (half the thermal energy) of its best independent estimate, the mean work of reversible stretching. The implementation and test of Jarzynski{’}s equality provides the first example of its use as a bridge between the statistical mechanics of equilibrium and nonequilibrium systems. This work also extends the thermodynamic analysis of single molecule manipulation data beyond the context of equilibrium experiments.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{number}{5574}
+      \field{title}{Equilibrium Information from Nonequilibrium Measurements in an Experimental Test of Jarzynski{’}s Equality}
+      \field{volume}{296}
+      \field{year}{2002}
+      \field{pages}{1832\bibrangedash 1835}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1071152
+      \endverb
+      \verb{eprint}
+      \verb http://science.sciencemag.org/content/296/5574/1832.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://science.sciencemag.org/content/296/5574/1832
+      \endverb
+      \verb{url}
+      \verb http://science.sciencemag.org/content/296/5574/1832
+      \endverb
+    \endentry
+    \entry{thompson2015mathematical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cec3100b62d6ff9106333c53388f2752}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Colin\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{cec3100b62d6ff9106333c53388f2752}
+      \strng{fullhash}{cec3100b62d6ff9106333c53388f2752}
+      \strng{bibnamehash}{cec3100b62d6ff9106333c53388f2752}
+      \strng{authorbibnamehash}{cec3100b62d6ff9106333c53388f2752}
+      \strng{authornamehash}{cec3100b62d6ff9106333c53388f2752}
+      \strng{authorfullhash}{cec3100b62d6ff9106333c53388f2752}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mathematical statistical mechanics}
+      \field{year}{2015}
+      \field{pages}{16\bibrangedash 20\bibrangessep 211\bibrangedash 213}
+      \range{pages}{8}
+    \endentry
+    \entry{williams2002optical}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bcdca21d2c6a6ffb3743d97eb4de5508}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{bcdca21d2c6a6ffb3743d97eb4de5508}
+      \strng{fullhash}{bcdca21d2c6a6ffb3743d97eb4de5508}
+      \strng{bibnamehash}{bcdca21d2c6a6ffb3743d97eb4de5508}
+      \strng{authorbibnamehash}{bcdca21d2c6a6ffb3743d97eb4de5508}
+      \strng{authornamehash}{bcdca21d2c6a6ffb3743d97eb4de5508}
+      \strng{authorfullhash}{bcdca21d2c6a6ffb3743d97eb4de5508}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biophysics Textbook Online: http://www. biophysics. org/btol}
+      \field{title}{Optical tweezers: measuring piconewton forces}
+      \field{year}{2002}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
