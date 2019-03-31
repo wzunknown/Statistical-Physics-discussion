@@ -151,6 +151,8 @@
             G(\vb*x,\vb*x') = H(\vb*x) + H'(\vb*x') + h_{int}(\vb*x,\vb*x')        
         \end{equation}
         事情变得非常复杂, 我们需要寻找新的角度来考察系统的演化.
+
+        接下来的讨论中, 我们都假设哈密顿量应该是时间反演对称的(比如没有磁场).
     \end{frame}
     \begin{frame}{Markov Chain and Detailed Balance}
         \begin{block}{Markov Chain}
@@ -161,17 +163,17 @@
         \end{block}
         对于离散变量空间和离散时间的情形, 我们只需要知道每一步的转移矩阵$M_n$, 就知道系统的演化,
         \begin{equation}
-            M_{n,ij} = \Pr(X_{n+1} = x_i| X_n = x_j),\ \sum_i M_{n,ij} = 1
+            M_{n,ij} = \Pr(X_{n+1} = x_j| X_n = x_i),\ \sum_j M_{n,ij} = 1
         \end{equation}
-        若$X_n$的概率分布是$\vb*\pi^{(n)} = [\pi^{(n)}_1,\pi^{(n)}_2,\dots]^T$,那么,
+        若$X_n$的概率分布是$\vb*\pi^{(n)} = [\pi^{(n)}_1,\pi^{(n)}_2,\dots]$,那么,
         \begin{equation}
-            \vb*\pi^{(n+1)} = M_n \vb*\pi^{(n)} = M_nM_{n-1}\cdots M_0\vb*\pi^{(0)}
+            \vb*\pi^{(n+1)} = \vb*\pi^{(n)}M_n = \vb*\pi^{(0)}M_0\cdots M_{n-1}M_{n}
         \end{equation}
     \end{frame}
     \begin{frame}{Markov Chain and Detailed Balance}
         对于连续变量和连续时间的情形,
         \begin{equation}
-            \rho(\vb*x, t) = \int p(\vb*x,t; \vb*x', t') \rho(\vb*x', t')\dd\vb*x'
+            \rho(\vb*x, t) = \int p(\vb*x,t; \vb*x', t') \rho(\vb*x', t')\dd\vb*x', \quad \int p(\vb*x,t; \vb*x', t') \dd\vb*x = 1
         \end{equation}
         如果一个演化方式和初始时间无关, 只和时间差有关, 我们称这样的Markov链是时齐的(time homogeneous).
         \begin{equation}
@@ -184,11 +186,15 @@
             \rho(\vb*x) = \int p(\vb*x'\to\vb*x, t)\rho(\vb*x')\dd\vb*x',\quad\forall t>0
         \end{equation}
         显然平衡态对于转移概率$p(\vb*x'\to\vb*x,t)$的约束在数学上并不那么强, 我们基于物理的考虑给他赋予一些新的性质.
-        \begin{block}{Detailed Balance}
+        \begin{block}{Detailed Balance $\to$ Microscopically reversible}
+            \noindent
             \begin{equation}
-                \rho(\hat{\vb*x})p(\hat{\vb*x}\to\hat{\vb*x}',t) = \rho(\vb*x')p(\vb*x'\to\vb*x,t)
+                \begin{split}
+                    \rho(\vb*x)p(\vb*x\to\vb*x',t) &= \rho(\vb*x')p(\vb*x'\to\vb*x,t)\\ \Rightarrow
+                    \rho(\hat{\vb*x})p(\hat{\vb*x}\to\hat{\vb*x}',t) &= \rho(\vb*x')p(\vb*x'\to\vb*x,t)\ \text{and}\ \rho(\vb*x) = \rho(\hat{\vb*x})                 
+                \end{split}
             \end{equation}
-            $\hat{\vb*x}$表示时间反演, i.e.$\ q\to q, p\to -p$.(这也被称为微观可逆性)
+            $\hat{\vb*x}$表示时间反演, i.e.$\ q\to q, p\to -p$.
         \end{block}
         % 时间反演对称性
         % \begin{equation}
@@ -196,9 +202,9 @@
         % \end{equation}
     \end{frame}
     \begin{frame}{Markov Chain and Detailed Balance}
-        细致平衡是平衡态的充分条件,
+        微观可逆性是平衡态的充分条件,
         \begin{equation}
-            \int\dd\vb*x'\rho(\vb*x')p(\vb*x'\to\vb*x,t) = \int\dd\vb*x'
+            \int\dd\vb*x'\rho(\vb*x')p(\vb*x'\to\vb*x,t) = \int\dd\vb*x'\rho(\hat{\vb*x})p(\hat{\vb*x}\to\hat{\vb*x}',t) = \rho(\vb*x)
         \end{equation}
         对于不同的情况,
         \begin{table}[H]
@@ -207,7 +213,7 @@
                 \toprule
                 &微正则 & 正则 & 特殊($p$,$T$确定)\\
                 \midrule
-                $\dfrac{p(\hat{\vb*x}\to\hat{\vb*x}',t)}{p(\vb*x'\to\vb*x,t)}$ & 1 &$\ee^{-\beta(H(\vb*x') - H(\hat{\vb*x}))}$ & $\ee^{-\beta(\Delta H + p \Delta V)}$\\
+                $\dfrac{p(\hat{\vb*x}\to\hat{\vb*x}',t)}{p(\vb*x'\to\vb*x,t)}$ & 1 &$\ee^{-\beta(H(\vb*x') - H(\vb*x))}$ & $\ee^{-\beta(\Delta H + p \Delta V)}$\\
                 \bottomrule
             \end{tabular}
         \end{table}
@@ -225,7 +231,7 @@
             \end{equation}
             系统和温度为$T$的大热库接触, $\omega$是一个确定参数变化过程$\lambda(t))(t\in[0,\tau])$中整个体系的熵产生, $P^F,P^R$是正过程和逆过程的熵产生分布函数.
         \end{alertblock}
-        $k_B = 1$
+        接下来都取, $k_B = 1$
     \end{frame}
     \begin{frame}{证明}
         对于相空间中某一条路径$\vb*x(t)$, 我们考虑沿这条路径的概率,
@@ -237,8 +243,8 @@
         $$
         \begin{equation}
             \begin{split}
-                \mathcal{P}^F[\vb*x(t)]\dd\vb*x_0\dd\vb*x_1\cdots\dd\vb*x_\tau &\approx\rho^F_0(\vb*x_0) \dd \vb*x_0p_1(\vb*x_0\to\vb*x_1,t_1)\dd\vb*x_1 \cdots p_n(\vb*x_{n-1}\to\vb*x_\tau,\tau-t_{n-1})\dd\vb*x_\tau\\
-                \mathcal{P}^R[\hat{\vb*x}(\tau-t)]\dd\vb*x_0\dd\vb*x_1\cdots\dd\vb*x_\tau &\approx \dd\vb*x_0p_1(\hat{\vb*x}_0\leftarrow\hat{\vb*x}_1,t_1)\dd\vb*x_1 \cdots p_n(\hat{\vb*x}_{n-1}\leftarrow\hat{\vb*x}_\tau,\tau-t_{n-1})\dd\vb*x_\tau\rho^R_\tau(\hat{\vb*x}_\tau)
+                \mathcal{P}^F[\vb*x(t)]\mathcal D[\vb*x(t)] &\approx\rho^F_0(\vb*x_0) \dd \vb*x_0p_1(\vb*x_0\to\vb*x_1,t_1)\dd\vb*x_1 \cdots p_n(\vb*x_{n-1}\to\vb*x_\tau,\tau-t_{n-1})\dd\vb*x_\tau\\
+                \mathcal{P}^R[\hat{\vb*x}(\tau-t)]\mathcal D[\vb*x(t)] &\approx \dd\vb*x_0p_1(\hat{\vb*x}_0\leftarrow\hat{\vb*x}_1,t_1)\dd\vb*x_1 \cdots p_n(\hat{\vb*x}_{n-1}\leftarrow\hat{\vb*x}_\tau,\tau-t_{n-1})\dd\vb*x_\tau\rho^R_\tau(\hat{\vb*x}_\tau)
             \end{split}
         \end{equation}
         $p_i$表示在$\lambda(t_i)$的条件下进行演化. 利用之前的对于细致平衡的讨论,
@@ -323,5 +329,47 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Experiment}
     \subsection{JE}
+    \begin{frame}{体系选择}
+        我们需要验证JE, 利用数学上的相关公式,
+        \begin{equation}
+            \Delta F = -\frac1\beta \ln \expval{\ee^{-\beta W}} 
+            = -\frac1\beta \sum_{n=1}^\infty \frac{(-\beta)^n}{n!} \kappa_n 
+            \approx \expval{W} - \frac12\beta\sigma^2
+        \end{equation}
+        我们发现, 当$\sigma\beta^{-1}$较大时, $\Delta F$会很大程度上取决于$W$取偏离$\expval{W}$较大的值, 从式子上看, 令$U = \ee^{-\beta W}$,
+        \begin{equation}
+            \rho_U(U) = \rho_W(W(U)) \left|\dv{W}{U}\right| = \rho_W(-\frac1\beta\ln U) \frac1{\beta U}
+        \end{equation}
+    \end{frame}
+    \begin{frame}{gif}
+        \begin{figure}[H]
+            \centering
+            \animategraphics[width=.8\textwidth]{10}{gif/anim}{0}{39}
+            \caption{概率分布的偏离}
+        \end{figure}
+    \end{frame}
+    \begin{frame}{体系选择}
+        \begin{columns}
+            \column{.7\textwidth}
+            我们必须要选择一个介观的体系, 使得$\sigma\beta$不至于太大, 导致实验上误差太大. 
+            \pause
+            \begin{center}
+                {\Large 展开\&折叠RNA!}
+            \end{center}
+            \column{.3\textwidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=.8\textwidth]{rna1.png}
+                \caption{RNA}
+            \end{figure}
+        \end{columns}
+    \end{frame}
+    \begin{frame}{实验设计}
+        \begin{figure}
+            \centering
+            \includegraphics[width=.6\textwidth]{exp2.png}
+            \caption{实验设计}
+        \end{figure}
+    \end{frame}
     \subsection{CFT}
 % \end{document}
