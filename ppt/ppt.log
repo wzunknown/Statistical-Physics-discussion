@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.18)  1 APR 2019 00:36
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.18)  1 APR 2019 08:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3791,14 +3791,64 @@ Overfull \vbox (14.15886pt too high) detected at line 366
 
 [45
 
+] [46
+
 ]
 File: ./figs/exp2.png Graphic file (type bmp)
 <./figs/exp2.png>
 
-Overfull \vbox (32.59122pt too high) detected at line 373
+Overfull \vbox (32.59122pt too high) detected at line 386
  []
 
-[46
+[47
+
+]
+File: ./figs/trap0.png Graphic file (type bmp)
+<./figs/trap0.png>
+File: ./figs/trap1.png Graphic file (type bmp)
+<./figs/trap1.png>
+
+Overfull \vbox (33.216pt too high) detected at line 398
+ []
+
+[48
+
+]
+File: ./figs/JE0.png Graphic file (type bmp)
+<./figs/JE0.png>
+
+Overfull \vbox (11.95772pt too high) detected at line 405
+ []
+
+[49
+
+]
+File: ./figs/JE3.png Graphic file (type bmp)
+<./figs/JE3.png>
+ [50
+
+]
+File: ./figs/JE2.png Graphic file (type bmp)
+<./figs/JE2.png>
+
+Overfull \vbox (11.97725pt too high) detected at line 419
+ []
+
+[51
+
+]
+File: ./figs/CFT0.png Graphic file (type bmp)
+<./figs/CFT0.png>
+File: ./figs/CFT1.png Graphic file (type bmp)
+<./figs/CFT1.png>
+ [52
+
+]
+File: ./figs/CFT2.png Graphic file (type bmp)
+<./figs/CFT2.png>
+File: ./figs/CFT3.png Graphic file (type bmp)
+<./figs/CFT3.png>
+ [53
 
 ])
 \g__fontspec_family_FangSong_int=\count533
@@ -3829,12 +3879,12 @@ Overfull \vbox (32.59122pt too high) detected at line 373
 . <->"FangSong/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
- [47
+ [54
 
-] [48
+] [55
 
 
-] [49
+] [56
 
 
 ]
@@ -3857,12 +3907,12 @@ Package logreq Info: Writing requests to 'ppt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49564 strings out of 492970
- 1044577 string characters out of 6133517
- 1472239 words of memory out of 5000000
- 52644 multiletter control sequences out of 15000+600000
- 541003 words of font info for 142 fonts, out of 8000000 for 9000
+ 49653 strings out of 492970
+ 1046396 string characters out of 6133517
+ 1472633 words of memory out of 5000000
+ 52709 multiletter control sequences out of 15000+600000
+ 543293 words of font info for 165 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 71i,24n,95p,10617b,4840s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,24n,95p,10617b,4842s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ppt.xdv (49 pages, 306356 bytes).
+Output written on ppt.xdv (56 pages, 333268 bytes).

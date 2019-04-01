@@ -364,12 +364,80 @@
             \end{figure}
         \end{columns}
     \end{frame}
+    \begin{frame}{实验对系综的逼近}
+        \begin{equation}
+                \expval{\ee^{-\beta W}} = \lim_{N\to\infty} \expval{\ee^{-\beta W}}_N 
+        \end{equation}
+        三种对自由能的估计,
+        \begin{equation}
+            \begin{split}
+                \text{Average work: } & W_A = \expval{W}_N\\
+                \text{Fluctuation-dissipation estimate: } & W_{FD} = \expval{W}_N - \frac12\beta\sigma^2\\
+                \text{Jarzynski equality: } & W_{JE} = \expval{\ee^{-\beta W}}_N
+            \end{split}
+        \end{equation}
+    \end{frame}
     \begin{frame}{实验设计}
+            \begin{figure}
+                \centering
+                \includegraphics[width=.6\textwidth]{exp2.png}
+                \caption{实验设计}
+            \end{figure}
+    \end{frame}
+    \begin{frame}{光镊}
         \begin{figure}
             \centering
-            \includegraphics[width=.6\textwidth]{exp2.png}
-            \caption{实验设计}
+            \subfigure[]{
+                \includegraphics[height=.4\textwidth]{trap0.png}
+            }
+            \subfigure[]{
+                \includegraphics[height=.4\textwidth]{trap1.png}
+            }
+            \caption{光镊}
+        \end{figure}
+    \end{frame}
+    \begin{frame}{实验结果}
+        \begin{figure}
+            \centering
+            \includegraphics[height=.4\textwidth]{JE0.png}
+            \caption{F-z曲线}
+        \end{figure}
+    \end{frame}
+    \begin{frame}{实验结果}
+        \begin{figure}
+            \centering
+            \includegraphics[height=.25\textwidth]{JE3.png}
+            \caption{$W_{\text{diss}} = W - \Delta F$分布}
+        \end{figure}
+    \end{frame}
+    \begin{frame}{实验结果}
+        \begin{figure}
+            \centering
+            \includegraphics[height=.4\textwidth]{JE2.png}
+            \caption{三种估计的对比}
         \end{figure}
     \end{frame}
     \subsection{CFT}
+    \begin{frame}{CFT的实验验证}
+        \begin{figure}
+            \centering
+            \subfigure[]{
+                \includegraphics[height=.35\textwidth]{CFT0.png}
+            }
+            \subfigure[]{
+                \includegraphics[height=.35\textwidth]{CFT1.png}
+            }
+        \end{figure}
+    \end{frame}
+    \begin{frame}{CFT的实验验证}
+        \begin{figure}
+            \centering
+            \subfigure[非Gauss分布]{
+                \includegraphics[height=.35\textwidth]{CFT2.png}
+            }
+            \subfigure[与BAR方法(数值模拟)对比]{
+                \includegraphics[height=.35\textwidth]{CFT3.png}
+            }
+        \end{figure}
+    \end{frame}
 % \end{document}
