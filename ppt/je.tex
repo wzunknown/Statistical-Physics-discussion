@@ -173,11 +173,11 @@
     \begin{frame}{Markov Chain and Detailed Balance}
         对于连续变量和连续时间的情形,
         \begin{equation}
-            \rho(\vb*x, t) = \int p(\vb*x,t; \vb*x', t') \rho(\vb*x', t')\dd\vb*x', \quad \int p(\vb*x,t; \vb*x', t') \dd\vb*x = 1
+            \rho(\vb*x, t) = \int  \rho(\vb*x', t')p(\vb*x',t'; \vb*x, t)\dd\vb*x', \quad \int p(\vb*x',t'; \vb*x, t) \dd\vb*x = 1
         \end{equation}
         如果一个演化方式和初始时间无关, 只和时间差有关, 我们称这样的Markov链是时齐的(time homogeneous).
         \begin{equation}
-            p(\vb*x,t; \vb*x',t') = p(\vb*x'\to\vb*x, \Delta t)
+            p(\vb*x',t'; \vb*x,t) = p(\vb*x'\to\vb*x, \Delta t)
         \end{equation}
     \end{frame}
     \begin{frame}{Markov Chain and Detailed Balance}
@@ -229,7 +229,7 @@
             \begin{equation}
                 \frac{P^F(\omega)}{P^R(-\omega)} = \ee^{\omega}
             \end{equation}
-            系统和温度为$T$的大热库接触, $\omega$是一个确定参数变化过程$\lambda(t))(t\in[0,\tau])$中整个体系的熵产生, $P^F,P^R$是正过程和逆过程的熵产生分布函数.
+            系统和温度为$T$的大热库接触, $\omega$是一个确定参数变化过程$\lambda(t)(t\in[0,\tau])$中整个体系的熵产生, $P^F,P^R$是正过程和逆过程的熵产生分布函数.
         \end{alertblock}
         接下来都取, $k_B = 1$
     \end{frame}
