@@ -128,9 +128,9 @@
         \begin{equation}
             W = \int_0^{t_s} \dd t\ \dot\lambda\pdv{H}{\lambda} = H(\vb*x(t_s),B) - H(\vb*x(0),A)
         \end{equation}
-        $W$与路径无关, $W = W(\vb*(x_0))$,
+        $W$与路径无关, $W = W(\vb*x(0))$,
         \begin{equation}
-            \expval{\ee^{-\beta W}} = \int \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(0),A)}}{Z_A} \cdot \ee^{H(\vb*x(t_s),B) - H(\vb*x(0),A)} = \int  \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x_(t_s),B)}}{Z_A}
+            \expval{\ee^{-\beta W}} = \int \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(0),A)}}{Z_A} \cdot \ee^{H(\vb*x(t_s),B) - H(\vb*x(0),A)} = \int  \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(t_s),B)}}{Z_A}
         \end{equation}
     \end{frame}
     \begin{frame}{证明}
@@ -223,6 +223,15 @@
         \begin{equation}
             \rho(\omega) = \int \delta(\omega(x) - \omega) f(x)\dd x
         \end{equation}
+        验证,
+        \begin{equation*}
+            \begin{split}
+                \expval{A(\omega)}_\omega &= \int A(\omega) \rho(\omega)\dd \omega\\
+                &= \int A(\omega) \delta(\omega(x) - \omega) f(x)\dd\omega\dd x \\
+                &= \int A(\omega(x))f(x)\dd x \\
+                &= \expval{A(\omega(x))}_x
+            \end{split}
+        \end{equation*}
     \end{frame}
     \begin{frame}{CFT}
         \begin{alertblock}{Crooks Fluctuation Theorem}
