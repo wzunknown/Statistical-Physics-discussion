@@ -86,54 +86,56 @@
 \headcommand {\beamer@framepages {36}{36}}
 \headcommand {\slideentry {2}{3}{12}{37/37}{Crooks Fluctuation Theorem(CFT)}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {2}{3}{13}{38/39}{Crooks Fluctuation Theorem(CFT)}{0}}
-\headcommand {\beamer@framepages {38}{39}}
-\headcommand {\beamer@subsectionpages {26}{39}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{40}{The Second Law of Thermodynamics}}
-\headcommand {\slideentry {2}{4}{1}{40/40}{The Second Law of Thermodynamics}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@sectionpages {15}{40}}
-\headcommand {\beamer@subsectionpages {40}{40}}
-\headcommand {\sectionentry {3}{Experiment}{41}{Experiment}{0}}
-\headcommand {\slideentry {3}{0}{1}{41/41}{}{0}}
+\headcommand {\slideentry {2}{3}{13}{38/38}{Crooks Fluctuation Theorem(CFT)}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {2}{3}{14}{39/40}{Crooks Fluctuation Theorem(CFT)}{0}}
+\headcommand {\beamer@framepages {39}{40}}
+\headcommand {\beamer@subsectionpages {26}{40}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{41}{The Second Law of Thermodynamics}}
+\headcommand {\slideentry {2}{4}{1}{41/41}{The Second Law of Thermodynamics}{0}}
 \headcommand {\beamer@framepages {41}{41}}
+\headcommand {\beamer@sectionpages {15}{41}}
 \headcommand {\beamer@subsectionpages {41}{41}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{42}{JE}}
-\headcommand {\slideentry {3}{1}{1}{42/42}{JE}{0}}
+\headcommand {\sectionentry {3}{Experiment}{42}{Experiment}{0}}
+\headcommand {\slideentry {3}{0}{1}{42/42}{}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {3}{1}{2}{43/43}{JE}{0}}
+\headcommand {\beamer@subsectionpages {42}{42}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{43}{JE}}
+\headcommand {\slideentry {3}{1}{1}{43/43}{JE}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {3}{1}{3}{44/45}{JE}{0}}
-\headcommand {\beamer@framepages {44}{45}}
-\headcommand {\slideentry {3}{1}{4}{46/46}{JE}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {3}{1}{5}{47/47}{JE}{0}}
+\headcommand {\slideentry {3}{1}{2}{44/44}{JE}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {3}{1}{3}{45/46}{JE}{0}}
+\headcommand {\beamer@framepages {45}{46}}
+\headcommand {\slideentry {3}{1}{4}{47/47}{JE}{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {3}{1}{6}{48/48}{JE}{0}}
+\headcommand {\slideentry {3}{1}{5}{48/48}{JE}{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {3}{1}{7}{49/49}{JE}{0}}
+\headcommand {\slideentry {3}{1}{6}{49/49}{JE}{0}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\slideentry {3}{1}{8}{50/50}{JE}{0}}
+\headcommand {\slideentry {3}{1}{7}{50/50}{JE}{0}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {3}{1}{9}{51/51}{JE}{0}}
+\headcommand {\slideentry {3}{1}{8}{51/51}{JE}{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\beamer@subsectionpages {42}{51}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{52}{CFT}}
-\headcommand {\slideentry {3}{2}{1}{52/52}{CFT}{0}}
+\headcommand {\slideentry {3}{1}{9}{52/52}{JE}{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {3}{2}{2}{53/53}{CFT}{0}}
+\headcommand {\beamer@subsectionpages {43}{52}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{53}{CFT}}
+\headcommand {\slideentry {3}{2}{1}{53/53}{CFT}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\beamer@sectionpages {41}{53}}
-\headcommand {\beamer@subsectionpages {52}{53}}
-\headcommand {\sectionentry {4}{References}{54}{References}{0}}
-\headcommand {\slideentry {4}{0}{0}{54/54}{CFT}{0}}
+\headcommand {\slideentry {3}{2}{2}{54/54}{CFT}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {4}{0}{0}{54/55}{CFT}{0}}
-\headcommand {\beamer@framepages {54}{55}}
-\headcommand {\slideentry {4}{0}{0}{54/56}{CFT}{0}}
-\headcommand {\beamer@framepages {54}{56}}
-\headcommand {\beamer@partpages {1}{56}}
-\headcommand {\beamer@subsectionpages {52}{56}}
-\headcommand {\beamer@sectionpages {41}{56}}
-\headcommand {\beamer@documentpages {56}}
-\headcommand {\gdef \inserttotalframenumber {49}}
+\headcommand {\beamer@sectionpages {42}{54}}
+\headcommand {\beamer@subsectionpages {53}{54}}
+\headcommand {\sectionentry {4}{References}{55}{References}{0}}
+\headcommand {\slideentry {4}{0}{0}{55/55}{CFT}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\slideentry {4}{0}{0}{55/56}{CFT}{0}}
+\headcommand {\beamer@framepages {55}{56}}
+\headcommand {\slideentry {4}{0}{0}{55/57}{CFT}{0}}
+\headcommand {\beamer@framepages {55}{57}}
+\headcommand {\beamer@partpages {1}{57}}
+\headcommand {\beamer@subsectionpages {53}{57}}
+\headcommand {\beamer@sectionpages {42}{57}}
+\headcommand {\beamer@documentpages {57}}
+\headcommand {\gdef \inserttotalframenumber {50}}

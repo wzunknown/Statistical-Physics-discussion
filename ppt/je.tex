@@ -93,11 +93,17 @@
         \begin{itemize}
             \item Jarzynski Equality(JE):
             \begin{equation}
-                \expval{\ee^{-\beta W}} = \ee^{-\beta \Delta F}
+                \begin{gathered}
+                    \text{EQM} \xrightarrow{\text{NE}} \text{EQM}\\
+                    \expval{\ee^{-\beta W}} = \ee^{-\beta \Delta F}
+                \end{gathered}
             \end{equation}
             \item Crooks Fluctuation Theorrem(CFT):
             \begin{equation}
-                \frac{P^F(\omega)}{P^R(-\omega)} = \ee^{\omega}\quad\Rightarrow\quad \frac{\rho^F(W)}{\rho^R(-W)} = \ee^{\beta(W - \Delta F)}
+                \begin{gathered}
+                    \text{NE} \xrightarrow{\text{NE}} \text{NE}\\
+                    \frac{P^F(\omega)}{P^R(-\omega)} = \ee^{\omega}\quad\Rightarrow\quad \frac{\rho^F(W)}{\rho^R(-W)} = \ee^{\beta(W - \Delta F)}                    
+                \end{gathered}
             \end{equation}
         \end{itemize}
     \end{frame}
@@ -114,10 +120,10 @@
     \begin{frame}{证明}
         Jarzynski在1997年的PRL中实际上只给出了一种特殊情形下的证明, 我们考虑一个系统, 刚开始时和大热库处于热平衡, 满足正则系综, 然后进行控制参数的改变, 改变过程中和热库之间没有热量交换, 也无需处于平衡态, 结束之后, 保持控制参数不变, 系统和热库接触, 回到温度$T$. 
         
-        哈密顿量$H = H(\vb*x,\lambda)$, 对于每一个参数$\lambda$, 都可以得到一个自由能$F_\lambda$,
-        \begin{equation}
-            \ee^{-\beta F_\lambda} = \int\dd\vb*x\ \ee^{-\beta H(\vb*x, \lambda)}
-        \end{equation}
+        % 哈密顿量$H = H(\vb*x,\lambda)$, 对于每一个参数$\lambda$, 都可以得到一个自由能$F_\lambda$,
+        % \begin{equation}
+        %     \ee^{-\beta F_\lambda} = \int\dd\vb*x\ \ee^{-\beta H(\vb*x, \lambda)}
+        % \end{equation}
     \end{frame}
     \begin{frame}{证明}
         系统哈密顿量变化,
@@ -130,7 +136,7 @@
         \end{equation}
         $W$与路径无关, $W = W(\vb*x(0))$,
         \begin{equation}
-            \expval{\ee^{-\beta W}} = \int \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(0),A)}}{Z_A} \cdot \ee^{H(\vb*x(t_s),B) - H(\vb*x(0),A)} = \int  \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(t_s),B)}}{Z_A}
+            \expval{\ee^{-\beta W}} = \int \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(0),A)}}{Z_A} \cdot \ee^{-\beta(H(\vb*x(t_s),B) - H(\vb*x(0),A))} = \int  \dd\vb*x(0)\ \frac{\ee^{-\beta H(\vb*x(t_s),B)}}{Z_A}
         \end{equation}
     \end{frame}
     \begin{frame}{证明}
@@ -178,6 +184,10 @@
         如果一个演化方式和初始时间无关, 只和时间差有关, 我们称这样的Markov链是时齐的(time homogeneous).
         \begin{equation}
             p(\vb*x',t'; \vb*x,t) = p(\vb*x'\to\vb*x, \Delta t)
+        \end{equation}
+        "矩阵"形式,
+        \begin{equation}
+            \rho(\vb*x)\dd\vb*x\Big|_{\text{From}\ \vb*x'} = \rho(\vb*x')\dd\vb*x'\ \cdot\ p(\vb*x'\to\vb*x, \Delta t)\dd\vb*x
         \end{equation}
     \end{frame}
     \begin{frame}{Markov Chain and Detailed Balance}
@@ -256,12 +266,12 @@
                 \mathcal{P}^R[\hat{\vb*x}(\tau-t)]\mathcal D[\vb*x(t)] &\approx \dd\vb*x_0p_1(\hat{\vb*x}_0\leftarrow\hat{\vb*x}_1,t_1)\dd\vb*x_1 \cdots p_n(\hat{\vb*x}_{n-1}\leftarrow\hat{\vb*x}_\tau,\tau-t_{n-1})\dd\vb*x_\tau\rho^R_\tau(\hat{\vb*x}_\tau)
             \end{split}
         \end{equation}
-        $p_i$表示在$\lambda(t_i)$的条件下进行演化. 利用之前的对于细致平衡的讨论,
+        $p_i$表示在$\lambda(t_i)$的条件下进行演化. 利用之前的对于固定参数时微观可逆性的讨论,
         \[\dfrac{p(\hat{\vb*x}\to\hat{\vb*x}',t)}{p(\vb*x'\to\vb*x,t)} = \ee^{-\beta(H(\vb*x') - H(\hat{\vb*x}))}
             \]
     \end{frame}
     \begin{frame}{证明}
-        可以得到微观可逆性条件,
+        可以得到在这个情形下的微观可逆性条件,
         \begin{equation}
             \begin{split}
                 \frac{\mathcal{P}^F[\vb*x(t)]}{\mathcal{P}^R[\hat{\vb*x}(\tau-t)]} &= \frac{\rho^F_0(\vb*x_0)}{\rho^R_\tau(\hat{\vb*x}_\tau)}\exp(-\beta\sum_i [H(\vb*x_i,\lambda_i) - H(\vb*x_{i-1},\lambda_i)]) \\
@@ -295,6 +305,14 @@
                 &= \ee^{\omega}P^R(-\omega)
             \end{split}
         \end{equation}
+    \end{frame}
+    \begin{frame}{Assumptions}
+        我们回顾一下使用了哪些假设和重要的条件,
+        \begin{itemize}
+            \item 微观可逆性, 包括某种程度的时间反演对称性
+            \item $\lambda(t)$是一个确定的函数, 控制参数的演化是确定的
+            \item 对于功和热量的界定
+        \end{itemize}
     \end{frame}
     \begin{frame}{CFT$\to$JE}
         对于初末态是正则系综平衡态的情形,
