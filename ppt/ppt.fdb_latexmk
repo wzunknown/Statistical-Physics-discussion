@@ -1,15 +1,15 @@
 # Fdb version 3
-["biber ppt"] 1554260901 "ppt.bcf" "ppt.bbl" "ppt" 1554261260
-  "ppt.bcf" 1554261255 90496 34b8d964b4e72611b551be503474511f ""
-  "ref.bib" 1553955839 3723 a9efb463685a28c3f89360a864f9f5f7 ""
+["biber ppt"] 1554262306 "ppt.bcf" "ppt.bbl" "ppt" 1554262336
+  "ppt.bcf" 1554262331 90496 34b8d964b4e72611b551be503474511f ""
+  "ref.bib" 1554262301 3994 6d8d725af0e56a986903f8cc848cebf0 ""
   (generated)
   "ppt.blg"
   "ppt.bbl"
-["xdvipdfmx"] 1554261255 "ppt.xdv" "ppt.pdf" "ppt" 1554261260
-  "ppt.xdv" 1554261255 342364 33bb500b129c5843537d5f91e1374b2e "xelatex"
+["xdvipdfmx"] 1554262332 "ppt.xdv" "ppt.pdf" "ppt" 1554262336
+  "ppt.xdv" 1554262331 344980 7717bf397e114b8e148e4583eb620539 "xelatex"
   (generated)
   "ppt.pdf"
-["xelatex"] 1554261245 "d:/else/Statistical-Physics-discussion/ppt/ppt.tex" "ppt.xdv" "ppt" 1554261260
+["xelatex"] 1554262321 "d:/else/Statistical-Physics-discussion/ppt/ppt.tex" "ppt.xdv" "ppt" 1554262336
   "c:/Windows/Fonts/msyh.ttc" 1523489648 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "d:/else/Statistical-Physics-discussion/ppt/ppt.tex" 1554257933 14167 27507b33c422c8fbb304a38dc3f1fdbd ""
   "d:/software/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1542512132 3332 103109f5612ad95229751940c61aada0 ""
@@ -338,19 +338,19 @@
   "gif/anim8.png" 1553863249 4592 e7b5212acacf2b5501dcca90807813e2 ""
   "gif/anim9.png" 1553863249 4730 82e13bc38d5c893c76f3cd1d8c31f484 ""
   "je.tex" 1554261244 22270 fcd03f70c4bd79983ef17211c7220b77 ""
-  "ppt.aux" 1554261255 16901 c2d8e42307cca367a92860f2eadf958c ""
-  "ppt.bbl" 1554260903 12776 d31db0e7200abca8cac15efc2d2ad148 "biber ppt"
-  "ppt.nav" 1554261255 7569 1df77fbcd72d44f8ca3dfb5c7b14e5a1 ""
-  "ppt.run.xml" 1554261255 2326 1959f28ceb98894195768f95bef640b0 ""
+  "ppt.aux" 1554262331 16967 e23f4d032b97b94bfeb847371fbd4848 ""
+  "ppt.bbl" 1554262309 14004 19f4400d64bc62a56aa08a18fee6a1ef "biber ppt"
+  "ppt.nav" 1554262331 7569 1df77fbcd72d44f8ca3dfb5c7b14e5a1 ""
+  "ppt.run.xml" 1554262331 2326 1959f28ceb98894195768f95bef640b0 ""
   "ppt.tex" 1554257933 14167 27507b33c422c8fbb304a38dc3f1fdbd ""
-  "ppt.toc" 1554261255 738 8d6b3af6ee80257aa3b22fc2c33f08b0 ""
+  "ppt.toc" 1554262331 738 8d6b3af6ee80257aa3b22fc2c33f08b0 ""
   "wzbeamer.cls" 1553955839 1803 8977122eef8a5c3498ffb8327cae8996 ""
   (generated)
-  "ppt.log"
-  "ppt.run.xml"
+  "ppt.nav"
   "ppt.aux"
+  "ppt.log"
+  "ppt.toc"
+  "ppt.bcf"
   "ppt.xdv"
   "ppt.snm"
-  "ppt.bcf"
-  "ppt.nav"
-  "ppt.toc"
+  "ppt.run.xml"

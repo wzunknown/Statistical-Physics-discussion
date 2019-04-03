@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.18)  3 APR 2019 11:14
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.11.18)  3 APR 2019 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3913,12 +3913,12 @@ Package logreq Info: Writing requests to 'ppt.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49673 strings out of 492970
- 1046979 string characters out of 6133517
- 1472891 words of memory out of 5000000
- 52729 multiletter control sequences out of 15000+600000
+ 49677 strings out of 492970
+ 1047096 string characters out of 6133517
+ 1474918 words of memory out of 5000000
+ 52733 multiletter control sequences out of 15000+600000
  543293 words of font info for 165 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  71i,24n,95p,10617b,4842s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ppt.xdv (57 pages, 342364 bytes).
+Output written on ppt.xdv (57 pages, 344980 bytes).

@@ -184,6 +184,37 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.78.2690
       \endverb
     \endentry
+    \entry{youtube}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5c6456fe25dd55506ed440cb41cd3ab0}{%
+           family={Jarzynski},
+           familyi={J\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{5c6456fe25dd55506ed440cb41cd3ab0}
+      \strng{fullhash}{5c6456fe25dd55506ed440cb41cd3ab0}
+      \strng{bibnamehash}{5c6456fe25dd55506ed440cb41cd3ab0}
+      \strng{authorbibnamehash}{5c6456fe25dd55506ed440cb41cd3ab0}
+      \strng{authornamehash}{5c6456fe25dd55506ed440cb41cd3ab0}
+      \strng{authorfullhash}{5c6456fe25dd55506ed440cb41cd3ab0}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nonequilibrium Statistical Mechanics}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/playlist?list=PLsdR-sWolXgJdn_O0OK0A16BYREhLg49l
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/playlist?list=PLsdR-sWolXgJdn_O0OK0A16BYREhLg49l
+      \endverb
+    \endentry
     \entry{Liphardt1832}{article}{}
       \name{author}{5}{}{%
         {{hash=986db9c0cc76a7ab8e004cfaec1e7ca4}{%

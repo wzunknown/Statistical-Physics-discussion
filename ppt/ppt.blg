@@ -1,18 +1,18 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'ppt.blg'
-[36] biber-MSWIN32:313> INFO - === 
-[69] Biber.pm:371> INFO - Reading 'ppt.bcf'
-[180] Biber.pm:854> INFO - Using all citekeys in bib section 0
-[197] Biber.pm:3976> INFO - Processing section 0
-[213] Biber.pm:4136> INFO - Looking for bibtex format file 'ref.bib' for section 0
-[217] bibtex.pm:1500> INFO - LaTeX decoding ...
-[240] bibtex.pm:1316> INFO - Found BibTeX data source 'ref.bib'
-[247] Utils.pm:193> WARN - month field 'Apr' in entry 'PhysRevLett.78.2690' is not an integer - this will probably not sort properly.
-[267] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevE.60.2721' is not an integer - this will probably not sort properly.
-[305] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[305] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[305] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[305] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[321] bbl.pm:617> INFO - Writing 'ppt.bbl' with encoding 'UTF-8'
-[324] bbl.pm:720> INFO - Output to ppt.bbl
-[328] Biber.pm:110> INFO - WARNINGS: 2
+[37] biber-MSWIN32:313> INFO - === 
+[75] Biber.pm:371> INFO - Reading 'ppt.bcf'
+[220] Biber.pm:854> INFO - Using all citekeys in bib section 0
+[249] Biber.pm:3976> INFO - Processing section 0
+[284] Biber.pm:4136> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[290] bibtex.pm:1500> INFO - LaTeX decoding ...
+[330] bibtex.pm:1316> INFO - Found BibTeX data source 'ref.bib'
+[339] Utils.pm:193> WARN - month field 'Apr' in entry 'PhysRevLett.78.2690' is not an integer - this will probably not sort properly.
+[365] Utils.pm:193> WARN - month field 'Sep' in entry 'PhysRevE.60.2721' is not an integer - this will probably not sort properly.
+[454] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[454] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[454] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[454] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[471] bbl.pm:617> INFO - Writing 'ppt.bbl' with encoding 'UTF-8'
+[475] bbl.pm:720> INFO - Output to ppt.bbl
+[480] Biber.pm:110> INFO - WARNINGS: 2
